@@ -11,6 +11,10 @@
 	--border-header: #ececec;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
 body {
 	font-family: "Roboto", "Times New Roman", sans-serif;
 	background-color: var(--backgr-color);
@@ -18,7 +22,7 @@ body {
 	width: 1600px;
 }
 
-.header {
+.header-background {
 	display: block;
 	height: 80px;
 	border-bottom: 1px solid var(--border-header);
@@ -28,11 +32,17 @@ body {
 	display: inline-block;
 	margin-top: 24px;
 	margin-bottom: 25px;
+	margin-left: 15px;
+}
+
+.container-nav {
+	height: 80px;
 }
 
 .header-nav {
 	display: inline-block;
 	height: 80px;
+	margin-left: 89px;
 }
 
 .nav-list > li {
@@ -44,9 +54,6 @@ body {
 	display: flex;
 	gap: 46px;
 	padding: 0;
-	margin-left: 93px;
-	margin-top: 32px;
-	margin-bottom: 32px;
 }
 
 .header-nav-link:hover,
@@ -83,12 +90,8 @@ body {
 	margin-left: 50px;
 }
 
-.header-nav-link:visited,
-.header-logo-link:visited,
-.header-mail:visited,
-.header-phone:visited,
-.footer-logo-link:visited,
-.footer-contact:visited {
+.footer-logo-link {
+	text-decoration: none;
 }
 
 .button-solution:hover,
@@ -168,7 +171,7 @@ body {
 	list-style: none;
 }
 
-.back-container {
+.container {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -188,12 +191,6 @@ body {
 
 .portfolio-list-container > img {
 	display: block;
-}
-
-.container{
-	width: 1200px;
-	margin-left: 215px;
-	margin-right: auto;
 }
 
 .aside-list {
@@ -283,7 +280,7 @@ footer {
 }
 
 .footer-properties {
-	margin-left: 215px;
+	margin-left: 15px;
 }
 
 .footer-logo {
