@@ -11,12 +11,14 @@
 	--border-header: #ececec;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
@@ -24,7 +26,7 @@ body {
 	font-family: "Roboto", "Times New Roman", sans-serif;
 	background-color: var(--backgr-color);
 	color: var(--text-color);
-	width: 1600px;
+	width: 100vw;
 }
 
 .header-background {
@@ -46,19 +48,18 @@ body {
 
 .header-nav {
 	display: inline-block;
-	height: 80px;
 	margin-left: 89px;
 }
 
 .nav-list > li {
 	list-style: none;
-	height: 16px;
 }
 
 .nav-list {
 	display: flex;
 	gap: 46px;
 	padding: 0;
+	margin: 0;
 }
 
 .header-nav-link:hover,
@@ -116,14 +117,20 @@ body {
 .solution-section {
 	background-color: var(--footer-background-color);
 	height: 600px;
+	display: block;
 }
 
 .solution-header {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.36;
+	line-height: 1.37;
 	text-transform: uppercase;
 	color: var(--backgr-color);
+	width: 696px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 200px;
 }
 
 .button-solution {
@@ -132,6 +139,13 @@ body {
 	line-height: 1.875;
 	color: var(--backgr-color);
 	background-color: var(--choose-color);
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+	padding: 0;
+	margin-left: 700px;
+	margin-right: 700px;
+	margin-top: 30px;
 }
 
 .service-header {
@@ -175,7 +189,10 @@ body {
 .service-list {
 	list-style: none;
 }
+.main-background {
+	display: flex;
 
+}
 .container {
 	width: 1200px;
 	margin-left: auto;
@@ -188,6 +205,11 @@ body {
 	gap: 30px;
 	padding: 0;
 	justify-content: center;
+}
+
+.portfolio-section {
+	margin-top: 50px;
+	margin-bottom: 94px;
 }
 
 .portfolio-list-container {
@@ -212,6 +234,10 @@ body {
 	border-radius: 4px;
 	height: 38px;
 	width: 121px;
+}
+
+.aside-background {
+	padding-top: 94px;
 }
 
 .click {
@@ -264,6 +290,7 @@ address {
 footer {
 	background-color: var(--footer-background-color);
 	height: 252px;
+	width: 1600px;
 }
 
 .portfolio-list-header {
@@ -293,4 +320,8 @@ footer {
 	margin-bottom: 0;
 	padding-top: 60px;
 	text-decoration: none;
+}
+
+.service-list {
+	display: flex;
 }
