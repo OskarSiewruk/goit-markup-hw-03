@@ -39,6 +39,7 @@ body {
 .header-logo {
 	margin-top: 24px;
 	margin-bottom: 25px;
+	letter-spacing: 0.03em;
 }
 
 .container-nav {
@@ -51,6 +52,7 @@ body {
 	margin-left: 30px;
     padding-top: 32px;
     padding-bottom: 32px;
+	letter-spacing: 0.02em;
 }
 
 .nav-list > li {
@@ -94,6 +96,7 @@ body {
 padding-top: 32px;
 padding-bottom: 32px;
 margin-left: 364px;
+letter-spacing: 0.02em;
 }
 
 .header-phone {
@@ -135,6 +138,7 @@ margin-left: 364px;
 	margin-right: auto;
 	text-align: center;
 	padding-top: 200px;
+	letter-spacing: 0.06em;
 }
 
 .button-solution {
@@ -150,6 +154,7 @@ margin-left: 364px;
 	margin-left: 700px;
 	margin-right: 700px;
 	margin-top: 30px;
+	letter-spacing: 0.06em;
 }
 
 .service-header {
@@ -365,17 +370,23 @@ footer {
 	font-size: 18px;
 	line-height: 2;
 	color: var(--button-color);
+	letter-spacing: 0.06em;
 }
 
 .portfolio-list-description {
 	font-size: 16px;
 	line-height: 1.875;
 	color: var(--contact-color);
+	letter-spacing: 0.03em;
+	padding-top: 4px;
 }
 
 .portfolio-section-description {
 	border: 1px solid var(--color-border);
 	width: 370px;
+	padding-left: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .portfolio-list-container img {
@@ -385,6 +396,7 @@ footer {
 
 .footer-properties {
 	margin-left: 15px;
+	letter-spacing: 0.03em;
 }
 
 .footer-logo {
