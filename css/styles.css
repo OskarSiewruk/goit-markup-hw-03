@@ -26,7 +26,8 @@ body {
 	font-family: "Roboto", "Times New Roman", sans-serif;
 	background-color: var(--backgr-color);
 	color: var(--text-color);
-	width: 100vw;
+	width: 1600px;
+	overflow-x: hidden;
 }
 
 .header-background {
@@ -36,19 +37,20 @@ body {
 }
 
 .header-logo {
-	display: inline-block;
 	margin-top: 24px;
 	margin-bottom: 25px;
-	margin-left: 15px;
 }
 
 .container-nav {
 	height: 80px;
+    display: flex;
+	justify-content: space-around;
 }
 
 .header-nav {
-	display: inline-block;
-	margin-left: 89px;
+	margin-left: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-list > li {
@@ -88,12 +90,17 @@ body {
 	font-size: 14px;
 }
 
-.header-mail {
-	margin-left: 364px;
+.contact-background {
+padding-top: 32px;
+padding-bottom: 32px;
+margin-left: 364px;
 }
 
+.header-mail {}
+
+
 .header-phone {
-	margin-left: 50px;
+    margin-left: 50px;
 }
 
 .footer-logo-link {
