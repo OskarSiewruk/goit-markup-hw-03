@@ -96,9 +96,6 @@ padding-bottom: 32px;
 margin-left: 364px;
 }
 
-.header-mail {}
-
-
 .header-phone {
     margin-left: 50px;
 }
@@ -161,19 +158,56 @@ margin-left: 364px;
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.service-list {
+	padding-left: 15px;
+	padding-right: 15px;
+	gap: 30px;
+	letter-spacing: 0.03em;
 }
 
 .service-description {
 	color: var(--contact-color);
 	font-size: 14px;
 	line-height: 1.71;
+	letter-spacing: 0.03em;
+	margin-top: 10px;
 }
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
 
 .section-header {
 	color: var(--button-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
+}
+
+.specialize-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.specialize {
+	margin-top: 94px;
+}
+
+.team-background {
+	background-color: var(--background-button-color);
+}
+
+.team-block {
+	margin-top: 30px;
+	text-align: center;
 }
 
 .team-name-header {
@@ -181,6 +215,7 @@ margin-left: 364px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.187;
+	margin-bottom: 10px;
 }
 
 .team-name-description {
@@ -196,6 +231,30 @@ margin-left: 364px;
 .service-list {
 	list-style: none;
 }
+
+.team-list {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	letter-spacing: 0.03em;
+	padding-left: 15px;
+	padding-right: 15px;
+	gap: 30px;
+}
+
+.team-list img {
+	display: block;
+}
+
+.team-list li {
+	background-color: var(--backgr-color);
+	border-radius: 0px 0px 4px 4px;
+	padding-bottom: 30px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+	0px 1px 1px rgba(0, 0, 0, 0.14), 
+	0px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
 .main-background {
 	display: flex;
 
@@ -298,6 +357,7 @@ footer {
 	background-color: var(--footer-background-color);
 	height: 252px;
 	width: 1600px;
+	letter-spacing: 0.03em;
 }
 
 .portfolio-list-header {
@@ -316,6 +376,11 @@ footer {
 .portfolio-section-description {
 	border: 1px solid var(--color-border);
 	width: 370px;
+}
+
+.portfolio-list-container img {
+	width: 370px;
+	height: 294px;
 }
 
 .footer-properties {
