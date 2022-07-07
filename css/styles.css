@@ -27,6 +27,7 @@ body {
 	background-color: var(--backgr-color);
 	color: var(--text-color);
 	width: 100%;
+	max-width: 1600px;
 	overflow-x: hidden;
 }
 
